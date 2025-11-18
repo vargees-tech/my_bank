@@ -26,7 +26,7 @@ class BankingApp {
     }
 
     renderLogin() {
-        document.getElementById('app').innerHTML = `
+        document.getElementById('index').innerHTML = `
             <div class="login-container">
                 <div class="login-box">
                     <div class="login-header">
@@ -109,7 +109,7 @@ class BankingApp {
     }
 
     renderApp() {
-        document.getElementById('app').innerHTML = `
+        document.getElementById('index').innerHTML = `
             <div class="overlay" id="overlay"></div>
             ${this.renderNavbar()}
             <div class="main-content">
